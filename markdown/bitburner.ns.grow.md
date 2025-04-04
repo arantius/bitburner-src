@@ -35,7 +35,7 @@ Once the grow is complete, $1 is added to the server's available money for every
 
 After this addition, the thread count is also used to determine a multiplier, which the server's money is then multiplied by.
 
-The multiplier scales exponentially with thread count, and its base depends on the server's security level and in inherent "growth" statistic that varies between different servers.
+The multiplier scales exponentially with thread count, and its base depends on the server's security level and an inherent "growth" statistic that varies between different servers.
 
 [getServerGrowth](./bitburner.ns.getservergrowth.md) can be used to check the inherent growth statistic of a server.
 
