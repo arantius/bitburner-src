@@ -6196,7 +6196,7 @@ export interface NS {
    * multiplied by.
    *
    * The multiplier scales exponentially with thread count, and its base depends on the server's security
-   * level and in inherent "growth" statistic that varies between different servers.
+   * level and an inherent "growth" statistic that varies between different servers.
    *
    * {@link NS.getServerGrowth | getServerGrowth} can be used to check the inherent growth statistic of a server.
    *
